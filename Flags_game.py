@@ -9,6 +9,7 @@ score = 0.0
 #I have written score outside the for loop because we want the score to be added with every answer. I had previoulsy written the score in the for loop and this lead to score becoming zero with every new question.
 
 #I have created list of 10 countries for my game. The code lifts a country as per the written sequence, and then adds .jpg to the name of the element and picks up the image.
+
 print 'Your options are'
 print("\n".join(map(str, group_of_countries)))
 print random.shuffle(group_of_countries)
