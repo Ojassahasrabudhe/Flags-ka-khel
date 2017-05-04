@@ -1,6 +1,6 @@
 from PIL import Image
 
-group_of_countries = ['India','Bangladesh','Pakistan', 'Srilanka', 'Bermuda' ]
+group_of_countries = ['India','Bangladesh','Pakistan', 'Srilanka', 'Bermuda', 'Argentina', 'Brazil', 'Peru', 'Mexico', 'Canada' ]
 score = 0.0
 
 for questions in range(len(group_of_countries)):
@@ -23,3 +23,7 @@ for questions in range(len(group_of_countries)):
 		score = score-0.5
 		print 'your new score is below'
 		print score
+
+	if score >= 9.0:
+		print 'you have played too much'
+		break
