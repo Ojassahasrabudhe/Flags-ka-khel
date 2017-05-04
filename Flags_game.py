@@ -48,7 +48,13 @@ for questions in range(len(group_of_countries)):
 		print score
 
 	else:
-		print 'You loose half point, you loser!'
+                #print 'Incorrect answer '
+		print 'The correct answer is below'
+		print group_of_countries[questions]
+		#Now the latest edit done above makes the code show the correct answer when answered incorrectly.
+
+
+		print 'But you loose half point, you loser!'
 		score = score-0.5
 		print 'your new score is below'
 		print score
