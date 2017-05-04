@@ -10,8 +10,8 @@ score = 0.0
 
 #I have created list of 10 countries for my game. The code lifts a country as per the written sequence, and then adds .jpg to the name of the element and picks up the image.
 
-print 'Your options are'
-print("\n".join(map(str, group_of_countries)))
+#print 'Your options are'
+#print("\n".join(map(str, group_of_countries)))
 print random.shuffle(group_of_countries)
 
 #The above commands were written entirely by trial and error method. But they work!!
@@ -24,6 +24,12 @@ for questions in range(len(group_of_countries)):
 
 	image = Image.open(flagImage)
 	image.show()
+	print "Your options are given below"
+	options = [(group_of_countries[questions]), (group_of_countries[2]), (group_of_countries[3]), (group_of_countries[4])]
+	random.shuffle(options)
+	print("\n".join(map(str, options))) 
+	#What I have essentially done in the above three lines is I created a seperate list for options. I made sure to put the answer in it. Then I put the next three elements.
+	#Since the list is randomised before, we will always get new options which will include the answer. Then I also shuffle this list and print it out as optins.
 
 	#print ' Your options are'
 	#random.shuffle(group_of_countries)
@@ -37,6 +43,9 @@ for questions in range(len(group_of_countries)):
 
 
 	answer = raw_input("\nWhich country's flag is this?\n")
+	
+	
+
 	#here if the answer matches the element of the list, then it will consider answer to be correct and add a point.
 
 	#Below, is just the algebra for checking the answer and then adding or subtracting points from the score.
