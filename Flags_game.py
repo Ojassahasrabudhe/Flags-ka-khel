@@ -1,6 +1,6 @@
 from PIL import Image
 import random 
-# I have imported Image library from PIL in onder to use images in my code. I have not completely understood what work a library does, but I read I need to do his on Stackexchange.
+# I have imported Image library from PIL in onder to use images in my code. I have not completely understood what work a library does, but I read I need to do this on Stackexchange.
 # I have imported random to facilitate the random shuffle command which is used to give options randomly.
 
 group_of_countries = ['India','Bangladesh','Pakistan', 'Srilanka', 'Bermuda', 'Argentina', 'Brazil', 'Peru', 'Mexico', 'Canada' ]
