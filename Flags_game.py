@@ -24,6 +24,7 @@ for questions in range(len(group_of_countries)):
 
 	image = Image.open(flagImage)
 	image.show()
+	print
 	print "Your options are given below"
 	options = [(group_of_countries[questions]), (group_of_countries[2]), (group_of_countries[3]), (group_of_countries[4])]
 	random.shuffle(options)
