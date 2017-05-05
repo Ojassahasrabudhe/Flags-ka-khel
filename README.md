@@ -22,6 +22,8 @@ If the user identifies correctly, then give one point. If not, deduct half a poi
 
 ## Functioning
 
+To run the code, open and run the only .py file in the folder. It is named Flags_game.py
+
 The program has a `list` of ten countries called `group_of_countries`. More countries can be added to this list.
 This `list` is shuffled everytime the program runs the for loop.
 Thus some countries might get repeated.
