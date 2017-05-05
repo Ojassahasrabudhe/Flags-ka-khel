@@ -46,6 +46,8 @@ for questions in range(len(group_of_countries)):
 	answer = raw_input("\nWhich country's flag is this?\n")
 	
 	
+	
+	
 
 	#here if the answer matches the element of the list, then it will consider answer to be correct and add a point.
 
