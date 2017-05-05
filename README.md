@@ -27,7 +27,7 @@ This `list` is shuffled everytime the program runs the for loop.
 Thus some countries might get repeated.
 Then there is a second `list` called `options`. This list has the zero element of the most recently shuffled `group_of_countries` list.
 It adds the next three elements to the list options and then prints the list options which the user sees as his/her options to chose from.
-The program then searches for the .jpg files of each country from the folder and displays the image.
+The program then searches for the `.jpg` files of each country from the folder and displays the image.
 
 Here the user is prompted to type the name of the country by looking at the options.
 WARNING: Spelling and proper capitalization are crucial. The program does not recognise any input other than what is displayed in the options as a valid answer.
