@@ -10,8 +10,8 @@ This code was written by Ojas S, a student of Ashoka University, India as an int
 voice: 7744054856
 email: ojas.sahasrabudhe_ug19(@)ashoka.edu.in
 
-This program was written `Python` programming language version 2.7.3.
-You will need to inctall the `PIL` library to run this program. It also uses the `random` library which is pre-installed with Python.
+This program was written in `Python` programming language version 2.7.3.
+You will need to install the `PIL` library to run this program. It also uses the `random` library which is pre-installed with Python.
 
 
 ## Objective
